@@ -35,6 +35,10 @@ async function environmentSetup() {
   // Get and print the new token ID from the receipt
   const tokenId = receipt.tokenId;
   console.log("The new token ID is " + tokenId);
+
+  //Get and print Hashscan transaction
+  console.log(`https://hashscan.io/testnet/token/${tokenId}`)
+
 }
 
 // Execute the environment setup function and catch any errors
